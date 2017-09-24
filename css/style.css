@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext');
+
+/* -- Основные стили -- */
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.header-top {
+  vertical-align: middle;
+}
+
+.logo {
+  float: left;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/tomato-logo.png");
+  width: 60px;
+  height: 60px;
+}
+
+.title {
+  float: left;
+}
+
+h1 {
+  font-size: 29px;
+  font-weight: 700;
+  margin: 0 10px;
+  padding-top: 14px;
+}
+
+.descript {
+  margin: 0 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+ol {
+    min-width: 250px;
+    padding-left: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 2px 1px #555;
+    background-color: white;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.help-info {
+    margin: 0 auto;
+}
+
+.help-info p {
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.footer {
+    margin: 10px auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* -- Помидорки -- */
+
+.pomidor {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pomidor-foto {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pomidor-info {
+    float: left;
+}
+
+/* -- Помидор (cтарт) -- */
+
+.pomidor-start {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #449d44;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 0 2px 1px #555;
+}
+
+.start {
+    background-image: url("../img/time-start.png");
+    background-position: center;
+    width: 130px;
+    height: 130px;
+}
+
+.pomidor-info {
+    width: 80px;
+}
+
+.start-timer {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url("../img/start.png");
+    width: 80px;
+    height: 80px;
+}
+
+.comment-1{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 104px;
+}
+
+
+
+/* -- Помидор (работа) -- */
+
+.pomidor-work {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fbec5d;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 0 2px 1px #555;
+}
+
+.pomidor-info {
+    width: 80px;
+}
+
+.status {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.comment-2{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 108px;
+}
+
+.copiright {
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+/* -- Помидор (работа) - Время -- */
+
+.time-30 {
+    background-image: url("../img/time-30.png");
+    background-position: center;
+    width: 130px;
+    height: 130px;
+}
+
+.time-25 {
+    background-image: url("../img/time-25.png");
+    background-position: center;
+    width: 130px;
+    height: 130px;
+}
+
+.time-20 {
+     background-image: url("../img/time-20.png");
+     background-position: center;
+     width: 130px;
+     height: 130px;
+}
+
+.time-15 {
+    background-image: url("../img/time-15.png");
+    background-position: center;
+    width: 130px;
+    height: 130px;
+}
+
+.time-10 {
+    background-image: url("../img/time-10.png");
+    background-position: center;
+    width: 130px;
+    height: 130px;
+}
+
+.time-5 {
+    background-image: url("../img/time-5.png");
+    background-position: center;
+    width: 130px;
+    height: 130px;
+}
+
+/* -- Помидор (отдых) -- */
+
+.pomidor-rest {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #449d44;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 0 2px 1px #555;
+}
+
+.pomidor-info {
+    width: 80px;
+}
+
+.status {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.comment-3{
+    margin-left: 12px;
+    margin-top: 20px;
+    width: 108px;
+}
+
+/* Служебные */
+
+.vis {
+    display: block;
+}
+
+.unvis {
+    display: none;
+}
+
+.clear:after {
+    display: block;
+    content: '';
+    clear: both;
+}
